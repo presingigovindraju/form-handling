@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form handling</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <input type="email" placeholder="Email"/>
+    <button class="button">colecting data</button> -->
+    <!-- <select>
+        <option value="Math">Math</option>
+        <option value="social">social</option>
+        <option value="physices">physices</option>
+    </select> -->
+    <h1>student details</h1>
+    <form action="/">
+      <input type="name" name="name" placeholder="Enter name" required />
+      <input type="number" name="number" placeholder="Enter number" required />
+      <input type="email" name="email" placeholder="Enter email" required />
+      <div>
+        <div>
+          <input type="radio" name="gender" placeholder="Male" required />
+          <label for="male">Male</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" placeholder="Female" required />
+          <label for="female">female</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" placeholder="Others" required />
+          <label for="others">others</label>
+        </div>
+      </div>
+      <button>submit form</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
